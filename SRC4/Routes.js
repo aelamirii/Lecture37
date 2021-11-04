@@ -17,7 +17,8 @@ function RoutesConfig($stateProvider , $urlRouterProvider) {
 
   .state('mainList', {
     url : '/main-List',
-    templateUrl : 'SRC4/ShoppingList/Templates/main-shoppingList.template.html'
+    templateUrl : 'SRC4/ShoppingList/Templates/main-shoppingList.template.html',
+    controller : 'MainShoppingListController as mainlist'
   })
 
 
